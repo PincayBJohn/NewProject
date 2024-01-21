@@ -20,6 +20,8 @@ public class Matrices {
         
         Tmatriz m = new Tmatriz(_tam, _c);
         
+        System.out.println("Dibujando las matrices...");
+        
         //Triángulo A
         String[][] _tA = m.trianguloA();
         m.imprimirMatriz("Triángulo A:", _tA);
