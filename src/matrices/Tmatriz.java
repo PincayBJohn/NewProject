@@ -29,7 +29,7 @@ public class Tmatriz {
     //Dibuja Triángulo B
     public String[][] trianguloB() {
         for (int i = 0; i < _tam; i++) {
-            for (int j = 0; j < _tam; j++) {
+            for (int j = _tam - 1; j >= 0; j--) {
                 if (j < _tam - i) {
                     matriz[i][j] = _c;
                 } else {
