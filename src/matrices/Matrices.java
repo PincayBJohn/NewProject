@@ -20,8 +20,6 @@ public class Matrices {
         
         Tmatriz m = new Tmatriz(_tam, _c);
         
-        System.out.println("Cmbio de prueba");
-        System.out.println("Por si aca");
         //Triángulo A
         String[][] _tA = m.trianguloA();
         m.imprimirMatriz("Triángulo A:", _tA);
