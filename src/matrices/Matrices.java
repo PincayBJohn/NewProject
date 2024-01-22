@@ -9,6 +9,7 @@ public class Matrices {
         Scanner sc = new Scanner(System.in);
         int _tam;
         String _c;
+        Tmatriz m;
         
         //Ingresar el tamaño de la matriz MxM
         do {
@@ -18,8 +19,7 @@ public class Matrices {
         System.out.print("Ingrese el carácter con el que se dibujara la matriz:  ");
         _c = sc.next();
         
-        Tmatriz m = new Tmatriz(_tam, _c);
-        
+        m = new Tmatriz(_tam, _c);
         System.out.println("Dibujando las matrices...");
         
         //Triángulo A
