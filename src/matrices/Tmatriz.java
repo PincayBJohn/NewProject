@@ -41,7 +41,7 @@ public class Tmatriz {
 //    Tu = (Tm + Tp)/2 
 //    Tu = [(3tc + 3ta + 2to)*tam + (2tc + 2ta) + (3tc + 4ta + 2to)*tam + (2tc + 2ta)]/2
 //    Tu = [(3tc + 3ta + 2to)*tam + (3tc + 4ta + 2to)*tam + 4tc + 4ta]/2  
-//    Tu = [tam*(6tc + 7ta + 4to)*tam + 4tc + 4ta]/2
+//    Tu = [(6tc + 7ta + 4to)*tam + 4tc + 4ta]/2
     
     //Dibuja Triángulo B
     public String[][] trianguloB() {
@@ -71,7 +71,7 @@ public class Tmatriz {
 //    Tu = (Tm + Tp)/2 
 //    Tu = [(3tc + 3ta + 4to)*tam + (2tc + 2ta) + (3tc + 4ta + 4to)*tam + (2tc + 2ta)]/2
 //    Tu = [(3tc + 3ta + 4to)*tam + (3tc + 4ta + 4to)*tam + 4tc + 4ta]/2  
-//    Tu = [tam*(6tc + 7ta + 8to)*tam + 4tc + 4ta]/2
+//    Tu = [(6tc + 7ta + 8to)*tam + 4tc + 4ta]/2
 
     //Imprimir la matriz
     public void imprimirMatriz(String mensaje, String[][] m) {
@@ -102,4 +102,4 @@ public class Tmatriz {
 
 //Tiempo promedio del Proyecto
 //Tu(ejercicio) = T(Inicializar Constructor) + Tu(Dibujar Matriz A) + Tu(Dibujar Matriz B) + T(Imprimir Matriz)
-//Tu(ejercicio)= [2ta] + [[tam*(6tc + 7ta + 4to)*tam + 4tc + 4ta]/2] + [[tam*(6tc + 7ta + 8to)*tam + 4tc + 4ta]/2] + [ta + tam*(3ta + 3tc + 2to) + 2tc]
+//Tu(ejercicio)= [2ta] + [[(6tc + 7ta + 4to)*tam + 4tc + 4ta]/2] + [[(6tc + 7ta + 8to)*tam + 4tc + 4ta]/2] + [ta + tam*(3ta + 3tc + 2to) + 2tc]
